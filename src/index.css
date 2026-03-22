@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+
+*{
+    transition: all 0.2s;
+}
+
+body{
+    transition: none;
+    
+}
+nav a:hover{
+    color:black;
+    transform: translateY(-2px);
+}
+a.active{
+    font-weight: bold;
+    color:black;
+    border-bottom: 2px solid;
+}

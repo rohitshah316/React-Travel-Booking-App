@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Destinations from './pages/Destinations'
+import DestinationDetail from './pages/DestinationDetail'
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ const App = () => {
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/destinations' element={<Destinations/>}/>
+            <Route path='/destinations/:id' element={<DestinationDetail/>}/>
           </Routes>
     </BrowserRouter>
   )

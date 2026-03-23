@@ -6,11 +6,11 @@ const Navbar = () => {
 
     const [menuOpen,setMenuOpen]=useState(false);
   return (
-    <nav className='h-3xl bg-blue-100 p-6'>
+    <nav className='h-3xl p-6 max-w-5xl mx-auto'>
         <div className='flex justify-between items-center'>
             <h1 className='md:text-3xl text-xl font-bold '>React Travel Booking App</h1>
 
-        <ul className='hidden md:flex gap-3 font-medium text-gray-600'>
+        <ul className='hidden md:flex gap-3 font-medium text-gray-300'>
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/destinations'>Destinations</NavLink>
             <NavLink to='/about'>About</NavLink>
@@ -25,7 +25,7 @@ const Navbar = () => {
 
         
         {menuOpen && (
-<ul className='flex flex-col gap-5 mt-5 font-medium bg-blue-200 p-3 text-gray-600'>
+<ul className='flex flex-col gap-5 mt-5 font-medium  p-3 text-gray-600'>
             <NavLink onClick={()=>setMenuOpen(false)} to='/'>Home</NavLink>
             <NavLink onClick={()=>setMenuOpen(false)} to='/destinations'>Destinations</NavLink>
             <NavLink onClick={()=>setMenuOpen(false)} to='/about'>About</NavLink>

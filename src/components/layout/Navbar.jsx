@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink,Link } from 'react-router-dom'
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='h-3xl p-6 max-w-5xl mx-auto'>
         <div className='flex justify-between items-center'>
-            <h1 className='md:text-3xl text-xl font-bold '>React Travel Booking App</h1>
+            <h1 className='md:text-3xl text-xl font-bold '><Link to='/'>React Travel Booking App</Link></h1>
 
         <ul className='hidden md:flex gap-3 font-medium text-gray-300'>
             <NavLink to='/'>Home</NavLink>

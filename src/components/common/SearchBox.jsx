@@ -29,7 +29,7 @@ const SearchBox = ({destination,setDestination,date,setDate,people,setPeople,roo
             <p>People:</p>
             <button onClick={(e)=>setPeople(c=>c+1)} className='bg-indigo-400 px-2 rounded w-6 flex items-center justify-center hover:bg-indigo-500 cursor-pointer'>+</button>
             <span>{people}</span>
-            <button onClick={(e)=>setPeople(c=>c>0?c-1:0)} className='bg-indigo-400 px-2 rounded w-6 flex items-center justify-center hover:bg-indigo-500 cursor-pointer'>-</button>
+            <button onClick={(e)=>setPeople(c=>c>1?c-1:1)} className='bg-indigo-400 px-2 rounded w-6 flex items-center justify-center hover:bg-indigo-500 cursor-pointer'>-</button>
         </div>
         <div className='flex items-center gap-2'>
             <p>Rooms:</p>

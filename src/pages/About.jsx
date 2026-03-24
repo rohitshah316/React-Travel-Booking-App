@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section className='mx-auto max-w-4xl p-10'>
         <h2 className='text-3xl font-bold my-10 text-center'>About Us</h2>
-       <div className='flex flex-col gap-10 text-lg text-gray-600'>
+       <div className='flex flex-col gap-10 text-lg'>
         <div className='flex flex-col md:flex-row gap-10'>
-             <p>Welcome to our travel booking platform — a modern, user-friendly web application built to make exploring the world easier and more accessible. This project is designed as a practice application using React.js, showcasing how a real-world travel service might look and function.</p>
+             <p>Welcome to our travel booking platform, a modern, user-friendly web application built to make exploring the world easier and more accessible. This project is designed as a practice application using React.js, showcasing how a real-world travel service might look and function.</p>
 
          <img src={about_page} alt="about_page"  className='w-100'/>
         </div>

@@ -7,27 +7,87 @@ export const destinationsData = [
       description:
         "The capital city of Nepal, rich in culture, heritage, and ancient temples.",
       hotels: [
-        {
-          id: 101,
-          title: "Hotel Yak & Yeti",
-          rating: 4.5,
-          price: 120,
-          availability: true,
-          image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
-          description:
-            "Luxury hotel located in the heart of Kathmandu with heritage charm.",
-        },
-        {
-          id: 102,
-          title: "Kathmandu Guest House",
-          rating: 4.2,
-          price: 60,
-          availability: true,
-          image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
-          description:
-            "Popular budget-friendly hotel in Thamel with a peaceful garden.",
-        },
-      ],
+  {
+    id: 101,
+    title: "Hotel Yak & Yeti",
+    rating: 4.5,
+    price: 120,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+    description:
+      "Luxury hotel located in the heart of Kathmandu with heritage charm.",
+  },
+  {
+    id: 102,
+    title: "Kathmandu Guest House",
+    rating: 4.2,
+    price: 60,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
+    description:
+      "Popular budget-friendly hotel in Thamel with a peaceful garden.",
+  },
+  {
+    id: 103,
+    title: "Hotel Shanker",
+    rating: 4.3,
+    price: 90,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+    description:
+      "Elegant heritage hotel offering classic comfort and modern amenities.",
+  },
+  {
+    id: 104,
+    title: "Aloft Kathmandu Thamel",
+    rating: 4.6,
+    price: 110,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
+    description:
+      "Trendy hotel with vibrant design, rooftop bar, and city views.",
+  },
+  {
+    id: 105,
+    title: "Hotel Mulberry",
+    rating: 4.4,
+    price: 100,
+    availability: false,
+    image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+    description:
+      "Modern boutique hotel with stylish rooms and rooftop pool.",
+  },
+  {
+    id: 106,
+    title: "Thamel Eco Resort",
+    rating: 4.1,
+    price: 50,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
+    description:
+      "Eco-friendly stay with a relaxing garden atmosphere in Thamel.",
+  },
+  {
+    id: 107,
+    title: "Hotel Himalaya",
+    rating: 4.3,
+    price: 85,
+    availability: true,
+    image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
+    description:
+      "Comfortable hotel with spacious rooms and great service.",
+  },
+  {
+    id: 108,
+    title: "The Address Kathmandu Hotel",
+    rating: 4.0,
+    price: 70,
+    availability: false,
+    image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
+    description:
+      "Cozy hotel with modern decor and convenient location.",
+  },
+],  
       places: [
         {
           id: 201,

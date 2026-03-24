@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { destinationsData } from '../data/data';
 import { FaMapMarkedAlt } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const DestinationDetail = () => {
 
@@ -20,15 +21,20 @@ const DestinationDetail = () => {
 
         
         </div>
-        <h2 className='mt-10 text-2xl font-bold'>Places To Explore</h2>
-            <div>
+        <h2 className='my-10 text-2xl font-bold'>Places To Explore</h2>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center'>
+                
                 {dest.places.map(place=>(
-                    <div key={place.id} >
-                        <h3>{place.title}</h3>
-                        <img src={place.image} alt={place.title} />
-                        <p>{place.description}</p>
+                    <div key={place.id} className='aspect-4/5 overflow-hidden w-full rounded-lg group relative'>
+                        <img src={place.image} alt={place.title} className='w-full h-full object-cover group-hover:scale-110'/>
+                        <div className='absolute inset-0 group-hover:bg-black/60'>
+                            <h3 className='absolute left-4 bottom-4 z-10 flex items-center'><FaMapMarkerAlt/>{place.title}</h3>
+                        
+                        <p className='absolute inset-0 flex items-center p-6 opacity-0 group-hover:opacity-100'>{place.description}</p>
+                        </div>
                     </div>
                 ))}
+            
             </div>
     </section>
   )

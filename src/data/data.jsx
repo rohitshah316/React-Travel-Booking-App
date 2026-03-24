@@ -13,7 +13,7 @@ export const destinationsData = [
           rating: 4.5,
           price: 120,
           availability: true,
-          image: "https://example.com/images/yak-yeti.jpg",
+          image: "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_1280.jpg",
           description:
             "Luxury hotel located in the heart of Kathmandu with heritage charm.",
         },
@@ -23,7 +23,7 @@ export const destinationsData = [
           rating: 4.2,
           price: 60,
           availability: true,
-          image: "https://example.com/images/kgh.jpg",
+          image: "https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_1280.jpg",
           description:
             "Popular budget-friendly hotel in Thamel with a peaceful garden.",
         },
@@ -32,21 +32,21 @@ export const destinationsData = [
         {
           id: 201,
           title: "Pashupatinath Temple",
-          image: "https://example.com/images/pashupatinath.jpg",
+          image: "https://cdn.pixabay.com/photo/2017/07/04/05/56/pashupatinath-2470062_1280.jpg",
           description:
             "A sacred Hindu temple dedicated to Lord Shiva and a UNESCO World Heritage Site.",
         },
         {
           id: 202,
           title: "Swayambhunath Stupa",
-          image: "https://example.com/images/swayambhu.jpg",
+          image: "https://cdn.pixabay.com/photo/2016/01/04/15/46/kathmandu-1121077_1280.jpg",
           description:
             "Also known as the Monkey Temple, offering panoramic views of Kathmandu Valley.",
         },
         {
           id: 203,
           title: "Kathmandu Durbar Square",
-          image: "https://example.com/images/durbar-square.jpg",
+          image: "https://cdn.pixabay.com/photo/2019/10/21/11/12/basantapur-4565767_1280.jpg",
           description:
             "Historic palace complex with ancient architecture and cultural significance.",
         },
@@ -66,7 +66,7 @@ export const destinationsData = [
           rating: 4.6,
           price: 150,
           availability: true,
-          image: "https://example.com/images/temple-tree.jpg",
+          image: "https://cdn.pixabay.com/photo/2021/12/18/06/00/room-6878004_1280.jpg",
           description:
             "Boutique resort near Lakeside with tranquil ambiance.",
         },
@@ -76,7 +76,7 @@ export const destinationsData = [
           rating: 4.3,
           price: 80,
           availability: false,
-          image: "https://example.com/images/lakefront.jpg",
+          image: "https://cdn.pixabay.com/photo/2013/03/23/04/29/master-bedroom-96086_1280.jpg",
           description:
             "Comfortable stay with beautiful views of Phewa Lake.",
         },
@@ -85,21 +85,21 @@ export const destinationsData = [
         {
           id: 204,
           title: "Phewa Lake",
-          image: "https://example.com/images/phewa-lake.jpg",
+          image: "https://cdn.pixabay.com/photo/2020/10/05/12/42/lake-5629258_1280.jpg",
           description:
             "The second largest lake in Nepal, ideal for boating and relaxation.",
         },
         {
           id: 205,
           title: "Sarangkot",
-          image: "https://example.com/images/sarangkot.jpg",
+          image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sarangkot_Pokhara-_Sunrise_View.jpg",
           description:
             "Famous viewpoint for sunrise and paragliding adventures.",
         },
         {
           id: 206,
           title: "Devi's Fall",
-          image: "https://example.com/images/devis-fall.jpg",
+          image: "https://cdn.pixabay.com/photo/2021/02/28/16/23/pokhara-6057613_1280.jpg",
           description:
             "A unique waterfall that disappears into an underground tunnel.",
         },
